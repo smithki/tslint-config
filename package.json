@@ -1,0 +1,37 @@
+{
+  "name": "@smithkistyle/tslint-config",
+  "version": "5.2.0",
+  "description": "A TSLint config with sensible rules for React, RxJS, Prettier, and more.",
+  "author": "Ian K Smith <smithki707@gmail.com>",
+  "license": "MIT",
+  "main": "tslint.js",
+  "repository": "https://gitlab.com/smithki/tslint-config",
+  "bugs": "https://gitlab.com/smithki/tslint-config/issues",
+  "keywords": [
+    "tslint",
+    "airbnb",
+    "microsoft",
+    "prettier",
+    "react",
+    "rxjs"
+  ],
+  "scripts": {
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish"
+  },
+  "dependencies": {
+    "rxjs-tslint-rules": "^3.9.0",
+    "tslint": "^5.9.1",
+    "tslint-config-airbnb": "^5.6.0",
+    "tslint-config-prettier": "^1.7.0",
+    "tslint-plugin-prettier": "^1.3.0",
+    "tslint-react": "^3.5.1"
+  },
+  "peerDependencies": {
+    "prettier": "^1.4.0",
+    "rxjs": "^5.0.0",
+    "tslint": "^5.5.0",
+    "typescript": "^2.5.0"
+  }
+}
