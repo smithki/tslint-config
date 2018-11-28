@@ -1,20 +1,13 @@
-# ---------------------------------------------------------------------------- #
-# GIT IGNORES
+# Boilerplate git ignore
+#
 # For more about ignoring files in git, see:
 # https://help.github.com/articles/ignoring-files/
 
-
-
-# ---------------------------------------------------------------------------- #
-# GENERAL
+# --- General ---------------------------------------------------------------- #
 
 # ...
 
-
-
-# ---------------------------------------------------------------------------- #
-# NODE
-# Source: https://github.com/github/gitignore/blob/master/Node.gitignore
+# --- Node ------------------------------------------------------------------- #
 
 # Logs
 logs
@@ -78,10 +71,7 @@ typings/
 # next.js build output
 .next
 
-
-
-# ---------------------------------------------------------------------------- #
-# VISUAL STUDIO CODE
+# --- VS Code ---------------------------------------------------------------- #
 # Source: https://github.com/github/gitignore/blob/master/Global/VisualStudioCode.gitignore
 #
 # These are here for safety, if you have ongoing issues with these file types
@@ -94,10 +84,7 @@ typings/
 !.vscode/launch.json
 !.vscode/extensions.json
 
-
-
-# ---------------------------------------------------------------------------- #
-# WINDOWS IGNORES
+# --- Windows ---------------------------------------------------------------- #
 # Source: https://github.com/github/gitignore/blob/master/Global/Windows.gitignore
 #
 # These are here for safety, if you have ongoing issues with these file types
@@ -127,10 +114,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-
-
-# ---------------------------------------------------------------------------- #
-# MAC OS IGNORES
+# --- macOS ------------------------------------------------------------------ #
 # Source: https://github.com/github/gitignore/blob/master/Global/macOS.gitignore
 #
 # These are here for safety, if you have ongoing issues with these file types
